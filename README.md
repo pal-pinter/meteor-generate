@@ -55,3 +55,14 @@ module-server-config-index.tpl
 module-server-lib-index.tpl
 module-server-publications-index.tpl
 
+### Module functions
+create-module.js
+create-module-client-config.js
+create-module-client-lib.js
+create-module-client-store.js
+create-module-i18n.js
+create-module-methods.js
+create-module-route.js
+create-module-server-config.js
+create-module-server-lib.js
+create-module-server-publication.js
