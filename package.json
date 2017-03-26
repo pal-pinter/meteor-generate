@@ -18,11 +18,15 @@
   ],
   "author": "Pál Pintér <pal@palpinter.com>",
   "license": "MIT",
+  "bin": {
+    "meteor-generate": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/pal-pinter/meteor-generate/issues"
   },
   "homepage": "https://github.com/pal-pinter/meteor-generate#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "eslint": "^3.18.0",
     "lodash": "^4.17.4",
     "shelljs": "^0.7.7"
