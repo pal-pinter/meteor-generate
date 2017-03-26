@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/pal-pinter/meteor-generate/issues"
   },
-  "homepage": "https://github.com/pal-pinter/meteor-generate#readme"
+  "homepage": "https://github.com/pal-pinter/meteor-generate#readme",
+  "dependencies": {
+    "eslint": "^3.18.0"
+  }
 }
