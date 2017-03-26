@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/pal-pinter/meteor-generate#readme",
   "dependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^3.18.0",
+    "lodash": "^4.17.4",
+    "shelljs": "^0.7.7"
   }
 }
