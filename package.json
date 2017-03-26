@@ -1,0 +1,25 @@
+{
+  "name": "meteor-generate",
+  "version": "0.0.1",
+  "description": "Skeleton to generate meteor application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pal-pinter/meteor-generate.git"
+  },
+  "keywords": [
+    "meteorjs",
+    "skeleton",
+    "apllication",
+    "generation"
+  ],
+  "author": "Pál Pintér <pal@palpinter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pal-pinter/meteor-generate/issues"
+  },
+  "homepage": "https://github.com/pal-pinter/meteor-generate#readme"
+}
