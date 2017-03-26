@@ -23,13 +23,35 @@ touch <name>/client/css/.gitkeep
 mkdir -p <name>/server
 touch <name>/server/.gitkeep
 
-# Module structure
-/imports/module
-/imports/module/client/store
-/imports/module/server/publications
-/imports/module/methods
-/imports/module/routes
-/imports/module/i18n
-
 ## meteor-generate module <name>
+### Module structure
+/imports/api/<name>
+/imports/api/<name>/client/config
+/imports/api/<name>/client/config/index.coffee
+/imports/api/<name>/client/lib
+/imports/api/<name>/client/lib/index.coffee
+/imports/api/<name>/client/store
+/imports/api/<name>/client/store/index.coffee
+/imports/api/<name>/i18n/index.coffee
+/imports/api/<name>/methods/index.coffee
+/imports/api/<name>/model/index.coffee
+/imports/api/<name>/register-api-client.coffee
+/imports/api/<name>/register-api-server.coffee
+/imports/api/<name>/routes/index.coffee
+/imports/api/<name>/server/config/index.coffee
+/imports/api/<name>/server/lib/index.coffee
+/imports/api/<name>/server/publications/index.coffee
+
+### Module templates
+module-client-config-index.tpl
+module-client-lib-index.tpl
+module-client-store-index.tpl
+module-i18n-index.tpl
+module-methods-index.tpl
+module-register-api-client.tpl
+module-register-api-server.tpl
+module-routes-index.tpl
+module-server-config-index.tpl
+module-server-lib-index.tpl
+module-server-publications-index.tpl
 
