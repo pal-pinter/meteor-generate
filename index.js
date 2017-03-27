@@ -8,7 +8,8 @@ program
   .alias('c')
   .description('Create meteor application')
   .option('-r, --reset', 'Remove existing application')
-  .option('-t, --test', 'Remove existing application')
+  .option('-d, --dirs', 'Create only dirs and files')
+  .option('-a, --app', 'Create only meteor app without dirs and files')
   .action(function(appName, options){
     createApplication(appName, options);
   });
