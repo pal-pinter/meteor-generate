@@ -1,7 +1,14 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+var shell = require('shelljs');
+var _ = require('lodash')
 
+const testFolder = '.';
+const fs = require('fs');
+list = fs.readdirSync(testFolder)
+
+console.log(list)
 program
   .version('0.0.1')
   .usage('<command> <argument>')
@@ -9,4 +16,5 @@ program
 
 program.parse(process.argv);
 
-if (program.create) console.log('create application');
+msg = _.upperFirst('create application')
+if (program.create) console.log(msg);

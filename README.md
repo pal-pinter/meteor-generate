@@ -34,6 +34,18 @@ mkdir -p <name>/server
 
 touch <name>/server/.gitkeep
 
+touch <name>/server/main.coffee
+
+#### Public directory
+mkdir -p <name>/public
+
+touch <name>/public/.gitkeep
+
+#### Private directory
+mkdir -p <name>/private
+
+touch <name>/private/.gitkeep
+
 ## meteor-generate module <name>
 ### Module structure
 /imports/api/<name>
@@ -61,6 +73,7 @@ touch <name>/server/.gitkeep
 /imports/api/<name>/register-api-server.coffee
 
 /imports/api/<name>/routes/index.coffee
+/imports/api/<name>/routes/groups.coffee
 
 /imports/api/<name>/server/config/index.coffee
 
@@ -95,6 +108,8 @@ module-register-api-client.tpl
 module-register-api-server.tpl
 
 module-routes-index.tpl
+
+module-routes-groups.tpl
 
 module-routes.tpl
 
