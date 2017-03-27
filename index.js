@@ -7,8 +7,10 @@ program
   .command('create [appName]')
   .alias('c')
   .description('Create meteor application')
+  .option('-r, --reset', 'Remove existing application')
+  .option('-t, --test', 'Remove existing application')
   .action(function(appName, options){
-    createApplication(appName);
+    createApplication(appName, options);
   });
 
 program.parse(process.argv);
