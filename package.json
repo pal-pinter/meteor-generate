@@ -12,9 +12,7 @@
   },
   "keywords": [
     "meteorjs",
-    "skeleton",
-    "apllication",
-    "generation"
+    "skeleton"
   ],
   "author": "Pál Pintér <pal@palpinter.com>",
   "license": "MIT",
@@ -29,6 +27,7 @@
     "commander": "^2.9.0",
     "eslint": "^3.18.0",
     "fs-extra": "^2.1.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "shelljs": "^0.7.7"
   }
 }
